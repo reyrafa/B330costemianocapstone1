@@ -1,0 +1,57 @@
+body {
+    background: #1E344E;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    z-index: 999;
+}
+
+#topNavBar {
+    background: #1E344E !important;
+}
+
+#navbarNavAltMarkup .nav-link,
+.navbar-brand {
+    color: white;
+}
+
+.navbar-brand:hover, #topNavBar .nav-link:hover {
+    color: green;
+}
+
+#topNavBar .nav-link.active{
+    color: green;
+}
+
+#contact textarea {
+    height: 10vh;
+}
+
+#landing #introMessage {
+    text-align: justify;
+}
+
+#aboutMe #aboutSelfMessage {
+    text-align: justify;
+}
+
+#projects .card-text {
+    text-align: justify;
+}
+
+footer {
+    background: #000033;
+}
+
+@media (min-width: 1024px) {
+    #aboutMe #fullStackDevTitle {
+        font-size: calc(1.3rem + .6vw) !important;
+    }
+
+    #aboutMe #devName {
+        font-size: calc(1.275rem + .3vw) !important
+    }
+
+
+}

@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Portfolio</title>
+
+        <!-- bootstrap css -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+
+        <!-- favicon -->
+        <link
+            rel="icon"
+            type="image"
+            href="https://mediacommons.psu.edu/wp-content/uploads/2021/02/Adobe-Portfolio-Icon.png"
+        />
+
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- fontawesome for icons-->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <!-- external css -->
+        <link rel="stylesheet" href="./index.css" />
+    </head>
+    <body>
+        <nav
+            class="navbar navbar-expand-md position-fixed w-100"
+            id="topNavBar"
+        >
+            <div class="container-fluid p-2 mx-3">
+                <a class="navbar-brand" href="#landing">Rey Rafael</a>
+                <button
+                    class="navbar-toggler bg-white"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto gap-0 gap-lg-4">
+                        <a
+                            class="nav-link active"
+                            aria-current="page"
+                            href="#landing"
+                            >Home</a
+                        >
+                        <a class="nav-link" href="#aboutMe">About</a>
+                        <a class="nav-link" href="#projects">Projects</a>
+                        <a class="nav-link" href="#tools">Tools</a>
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <!--start of landing section -->
+            <div class="row pt-5" id="landing">
+                <div class="col-md-6 p-5">
+                    <div
+                        class="text-danger text-uppercase fs-5 fw-bold text-center text-md-start mt-5"
+                    >
+                        Hello There! Welcome.
+                    </div>
+                    <div
+                        class="text-white mt-3 fs-1 fw-bolder text-center text-md-start"
+                    >
+                        I am a Web Developer
+                    </div>
+                    <div class="text-white mt-3 text" id="introMessage">
+                        I'm an enthusiastic web designer committed to making
+                        websites that are both aesthetically attractive and
+                        user-friendly and have a lasting impression. I'm here to
+                        make your online vision a reality with a strong passion
+                        for simple, intuitive design and a dedication to
+                        remaining on the cutting edge of web development trends.
+                        View my portfolio to learn how I can improve your online
+                        presence.
+                    </div>
+                    <div
+                        class="d-flex d-grid gap-4 mt-3 justify-content-center justify-content-md-start"
+                    >
+                        <div>
+                            <a
+                                href="https://www.facebook.com"
+                                class="btn btn-primary"
+                                target="_blank"
+                                ><i class="fa-brands fa-facebook"></i
+                            ></a>
+                        </div>
+                        <div>
+                            <a
+                                href="https://twitter.com/"
+                                target="_blank"
+                                class="btn btn-primary"
+                                ><i class="fa-brands fa-twitter"></i
+                            ></a>
+                        </div>
+                        <div>
+                            <a
+                                href="https://www.linkedin.com/"
+                                class="btn btn-primary"
+                                target="_blank"
+                                ><i class="fa-brands fa-linkedin"></i
+                            ></a>
+                        </div>
+                        <div>
+                            <a
+                                href="https://www.instagram.com/"
+                                class="btn btn-danger"
+                                target="_blank"
+                                ><i class="fa-brands fa-instagram"></i
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="col-md-6 d-flex align-items-center justify-content-center"
+                >
+                    <img
+                        src="./images/welcomeImg.png"
+                        alt="ProfileImg"
+                        class="img-fluid"
+                    />
+                </div>
+            </div>
+            <!-- end of landing section -->
+
+            <!-- start about me section -->
+            <div class="row pt-5" id="aboutMe">
+                <div
+                    class="col-md-6 d-flex justify-content-center align-items-center"
+                >
+                    <img
+                        src="./images/profile.png"
+                        alt="ProfileImg"
+                        class="img-fluid"
+                    />
+                </div>
+                <div class="col-md-6 p-5">
+                    <div
+                        class="text-danger fs-5 text-uppercase text-center text-lg-start fw-bolder"
+                        id="fullStackDevTitle"
+                    >
+                        Full Stack Web Developer
+                    </div>
+                    <div
+                        class="text-white mt-3 fs-6 fw-bold text-center text-lg-start"
+                        id="devName"
+                    >
+                        I am
+                        <span class="text-primary text-uppercase"
+                            >Rey Rafael Costemiano</span
+                        >
+                    </div>
+                    <div
+                        class="text-white mt-3 align-justify"
+                        id="aboutSelfMessage"
+                    >
+                        I am a graduate of BSIT on Bukidnon State University on
+                        2022. My motivation in life is God, my family, and my
+                        eagerness to learn more about technology and I believe
+                        on the saying "Never stop learning, for as long as you
+                        live, life is a journey of continual education."
+                    </div>
+                </div>
+            </div>
+
+            <!-- end about me section -->
+
+            <!-- projects section -->
+            <div class="row pt-5" id="projects">
+                <div
+                    class="col-md-12 pb-3 pt-5 text-center text-danger fs-3 fw-bold text-uppercase"
+                >
+                    Projects
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 pb-4 mb-md-0">
+                    <div class="card bg-dark">
+                        <img
+                            src="https://i.pinimg.com/originals/81/7c/51/817c514873249cc9f31df87720995d9a.png"
+                            class="card-img-top"
+                            alt="project1"
+                            id="project1"
+                        />
+                        <div class="card-body p-4">
+                            <h5
+                                class="card-title text-primary text-center text-uppercase"
+                            >
+                                Front-end Project
+                            </h5>
+                            <p class="card-text fs-6 text-white pb-3">
+                                Front-end work creates web interfaces with HTML,
+                                CSS, and JavaScript, ensuring user-friendly
+                                designs. Developers prioritize responsiveness
+                                and interactivity for engaging user experiences.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 pb-4 mb-md-0">
+                    <div class="card bg-dark">
+                        <img
+                            src="https://i.pinimg.com/originals/7a/66/d0/7a66d06b49bcc60898e8d7411e8ce50c.png"
+                            class="card-img-top"
+                            alt="project2"
+                            id="project2"
+                        />
+                        <div class="card-body pb-4">
+                            <h5
+                                class="card-title text-primary text-center text-uppercase"
+                            >
+                                back-end Project
+                            </h5>
+                            <p class="card-text fs-6 text-white pb-3">
+                                Back-end projects manage data, server logic, and
+                                security, ensuring robust web functionality.
+                                Developers focus on databases, authentication,
+                                and server-side processes for dynamic web
+                                applications.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4 pb-4 mb-md-0">
+                    <div class="card bg-dark">
+                        <img
+                            src="https://res.cloudinary.com/dz209s6jk/image/upload/v1554379475/Challenges/mhwyzwfgaii3cw5s6jco.jpg"
+                            class="card-img-top"
+                            alt="project2"
+                            id="project2"
+                        />
+                        <div class="card-body">
+                            <h5
+                                class="card-title text-primary text-center text-uppercase"
+                            >
+                                fullstack Project
+                            </h5>
+                            <p class="card-text fs-6 text-white pb-3">
+                                Full-stack projects combine front-end and
+                                back-end development, creating end-to-end web
+                                solutions. Developers handle interfaces, server
+                                logic, and databases for comprehensive web
+                                applications that offer seamless user
+                                experiences.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- end projects section -->
+
+            <!-- tools section -->
+            <div id="tools" class="mt-5 pt-5 bg-dark rounded">
+                <!-- Core Tools Section Start -->
+                <div
+                    class="text-danger fs-3 pt-5 text-uppercase text-center fw-bolder"
+                >
+                    Core Tools
+                </div>
+
+                <div id="core-tools" class="d-flex flex-column">
+                    <div id="html" class="d-flex justify-content-center">
+                        <img width="150" src="images/logo-html5.png" />
+                    </div>
+                    <div id="css-js" class="d-flex justify-content-center">
+                        <img width="150" src="images/logo-css3.png" />
+                        <img width="150" src="images/logo-javascript.png" />
+                    </div>
+                </div>
+                <!-- Core Tools Section End -->
+
+                <!-- Other Tools Section Start -->
+                <h3
+                    class="text-center mt-3 text-danger fs-4 pt-4 text-uppercase"
+                >
+                    Other Tools
+                </h3>
+
+                <div id="other-tools" class="d-flex flex-md-column">
+                    <div id="tools-1" class="d-md-flex justify-content-center">
+                        <img width="150" src="images/logo-mongodb.png" />
+                        <img width="150" src="images/logo-nodejs.png" />
+                        <img width="150" src="images/logo-expressjs.png" />
+                        <img width="150" src="images/logo-react.png" />
+                        <img width="150" src="images/logo-heroku.png" />
+                    </div>
+                    <div id="tools-2" class="d-md-flex justify-content-center">
+                        <img width="150" src="images/logo-git.png" />
+                        <img width="150" src="images/logo-sublime-text-3.png" />
+                        <img width="150" src="images/logo-postman.png" />
+                        <img width="150" src="images/logo-gitlab-ci-cd.png" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- tools section end -->
+
+            <!-- contacts section -->
+            <div id="contact" class="row pt-5 mx-2">
+                <div
+                    class="col-md-12 pb-3 text-center text-danger fs-3 fw-bold text-uppercase"
+                >
+                    Message Us
+                </div>
+
+                <!-- message form -->
+                <div class="col-12 col-md-6 offset-md-3 p-4 rounded-2 bg-primary" id="messageForm">
+                    <form action="">
+                        <div class="mb-3">
+                            <label for="fullname" class="form-label text-white"
+                                >Fullname
+                                <span class="text-danger">*</span></label
+                            >
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="fullname"
+                                placeholder="Enter Fullname"
+                               
+                            />
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label text-white"
+                                >Email Address
+                                <span class="text-danger">*</span></label
+                            >
+                            <input
+                                type="email"
+                                class="form-control"
+                                placeholder="Enter Email"
+                                id="email"
+                            />
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label text-white"
+                                >Message
+                                <span class="text-danger">*</span></label
+                            >
+                            <textarea
+                                class="form-control"
+                                placeholder="Leave a message here..."
+                                id="message"
+                            ></textarea>
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modalDiv">
+                                Submit
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- end contact section -->
+        </div>
+
+    
+        <!-- Modal -->
+        <div
+            class="modal fade"
+            id="modalDiv"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header bg-success">
+                        <h1 class="modal-title fs-5 text-white text-uppercase" id="exampleModalLabel">
+                            Message Sent
+                        </h1>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">Message is Successfully sent! Thank you.</div>
+                    <div class="modal-footer">
+                        <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                        >
+                            Close
+                        </button>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end of modal -->
+        <footer
+            class="justify-content-center text-white d-flex align-items-end d-grid gap-4 p-4 mt-5"
+        >
+            <div>Rey Rafael</div>
+            <div>|</div>
+            <div>Terms of Use</div>
+            <div>|</div>
+            <div>Copyright 2023</div>
+        </footer>
+        <!-- bootstrap script -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
